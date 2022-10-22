@@ -32,7 +32,7 @@ else:
 money = int(input("請輸入金額:"))
 
 if money >= 10000:
-    if money >= 10000:
+    if money >= 100000:
         print(money*0.8,end="元\n")
     elif money >= 50000:
         print(money*0.85,end="元\n")
